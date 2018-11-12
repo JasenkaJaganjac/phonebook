@@ -55,7 +55,7 @@ public class ConnectionManager {
 	}
 
 	public void close() {
-		System.out.println("Konekcija zatvorena.");
+		//System.out.println("Konekcija zatvorena.");
 		try {
 			connection.close();
 			connection = null;
